@@ -1,6 +1,6 @@
 # youtube_tag
 
-> My divine Nuxt.js project
+YouTubeの動画URLから使用されているタグを取得するウェブアプリ
 
 ## Build Setup
 
