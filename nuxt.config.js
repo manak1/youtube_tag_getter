@@ -1,3 +1,5 @@
+require('dotenv').config()
+const { API_KEY } = process.env.API_KEY
 export default {
   mode: 'universal',
   /*
@@ -56,6 +58,10 @@ export default {
   /*
    ** Build configuration
    */
+  env: {
+    API_KEY
+  },
+
   build: {
     /*
      ** You can extend webpack config here
