@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full bg-gray-500 p-4">
+  <header class="w-full bg-gray-800 p-4">
     <nav class="flex justify-center">
       <div class="flex items-center">
         <img
