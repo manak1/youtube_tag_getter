@@ -65,7 +65,7 @@ export default {
   computed: {
     buttonClass() {
       return {
-        'p-button__disabled': this.tagList.length <= 0
+        'p-button__disabled': this.tagList?.length <= 0
       }
     }
   },
